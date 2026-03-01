@@ -1,0 +1,17 @@
+{
+  "gateway": {
+    "port": 18789,
+    "host": "localhost",
+    "verbose": true
+  },
+  "models": {
+    "default": "anthropic/claude-3-5-sonnet-20241022",
+    "fallback": ["openai/gpt-4"]
+  },
+  "workspace": {
+    "name": "personal",
+    "skills": [
+      "./skills"
+    ]
+  }
+}

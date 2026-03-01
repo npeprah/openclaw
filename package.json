@@ -1,0 +1,24 @@
+{
+  "name": "openclaw-tools",
+  "version": "0.1.0",
+  "description": "Collection of OpenClaw tools and skills",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openclaw",
+    "ai",
+    "assistant",
+    "tools",
+    "skills"
+  ],
+  "author": "npeprah",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
