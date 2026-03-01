@@ -1,0 +1,24 @@
+{
+  "id": "smart-router",
+  "name": "Smart Model Router",
+  "description": "Routes to cheapest capable model by default, escalates to powerful models for complex tasks.",
+  "version": "1.0.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "enabled": { "type": "boolean" },
+      "cheapModel": { "type": "string" },
+      "midModel": { "type": "string" },
+      "powerModel": { "type": "string" },
+      "debug": { "type": "boolean" }
+    }
+  },
+  "uiHints": {
+    "enabled": { "label": "Enable smart routing" },
+    "cheapModel": { "label": "Cheap/fast model (default)", "placeholder": "google/gemini-2.0-flash" },
+    "midModel": { "label": "Mid-tier model", "placeholder": "anthropic/claude-haiku-4-5" },
+    "powerModel": { "label": "Power model (complex tasks)", "placeholder": "anthropic/claude-sonnet-4-6" },
+    "debug": { "label": "Log routing decisions" }
+  }
+}
