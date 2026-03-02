@@ -1,0 +1,18 @@
+{
+  "channels": {
+    "discord": {
+      "enabled": false,
+      "token": "YOUR_DISCORD_BOT_TOKEN",
+      "dmPolicy": "pairing"
+    },
+    "telegram": {
+      "enabled": false,
+      "token": "YOUR_TELEGRAM_BOT_TOKEN"
+    },
+    "slack": {
+      "enabled": false,
+      "token": "YOUR_SLACK_BOT_TOKEN",
+      "dmPolicy": "pairing"
+    }
+  }
+}
